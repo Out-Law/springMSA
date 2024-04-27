@@ -1,2 +1,5 @@
 rootProject.name = 'spring-demo-test'
 
+includeBuild 'eureka-server'
+includeBuild 'eureka-cli'
+
