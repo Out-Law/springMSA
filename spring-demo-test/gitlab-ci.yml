@@ -1,0 +1,31 @@
+stages:
+  - test
+  - deploy
+
+test-all:
+  stage: test
+  except:
+    - master
+  script:
+    - mvn clean install
+
+test-unit:
+  stage: test
+  only:
+    - master
+  script:
+    - mvn clean package
+    - cp target/spring-demo-test*.jar spring-demo-test-${CI_COMMIT_SHA}.jar
+  artifacts:
+    name: spring-demo-test
+    expire_in: 1 week
+    path:
+      - spring-demo-test-${CI_COMMIT_SHA}.jar
+
+deploy:
+  stage: deploy
+  needs: [test-unit]
+  only:
+    - master
+  script:
+    - ls spring-demo-test*.jar
