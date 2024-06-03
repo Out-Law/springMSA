@@ -12,6 +12,11 @@
                   <project path="$PROJECT_DIR$/api-gateway" />
                 </projects>
               </build>
+              <build path="$PROJECT_DIR$/cli-three" name="cli-three">
+                <projects>
+                  <project path="$PROJECT_DIR$/cli-three" />
+                </projects>
+              </build>
               <build path="$PROJECT_DIR$/cli-two" name="cli-two">
                 <projects>
                   <project path="$PROJECT_DIR$/cli-two" />
@@ -36,6 +41,7 @@
           <set>
             <option value="$PROJECT_DIR$" />
             <option value="$PROJECT_DIR$/api-gateway" />
+            <option value="$PROJECT_DIR$/cli-three" />
             <option value="$PROJECT_DIR$/cli-two" />
             <option value="$PROJECT_DIR$/eureka-cli" />
             <option value="$PROJECT_DIR$/eureka-server" />
@@ -47,6 +53,14 @@
         <option name="modules">
           <set>
             <option value="$PROJECT_DIR$/api-gateway" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/cli-three" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/cli-three" />
           </set>
         </option>
       </GradleProjectSettings>
