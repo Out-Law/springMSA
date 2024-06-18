@@ -27,7 +27,6 @@ public class KafkaProducer {
     @KafkaListener(topics = "serviceB_to_serviceC", groupId = "service-c-group")
     public void consume(String message) {
         try {
-            throw new EmptyStackException();
             System.out.println("Super!!!!");
             // Выполнение завершающей логики
         } catch (Exception e) {
