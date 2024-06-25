@@ -1,0 +1,13 @@
+spring:
+  application:
+    name: paypal-server
+
+paypal:
+  client-id: ATyndfa9UQszdRuImpv551aDpsLfkFUEbtMh8glfQefZVMMiHg4pEVjFFtRHlKbYBM5VjW_VsQ-H_W_Y
+  client-secret: EHs-dyTcg9xUA9RcQEtOY4ig10huaJaSpov2mxrAFTnsfOigl7H8KR9cPsOS7RGIj7zQnsCBZGnmK0O7
+  mode: sandbox
+
+
+
+
+

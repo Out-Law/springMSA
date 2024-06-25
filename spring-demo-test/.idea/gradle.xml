@@ -95,6 +95,14 @@
         </option>
       </GradleProjectSettings>
       <GradleProjectSettings>
+        <option name="externalProjectPath" value="$PROJECT_DIR$/paypal-server" />
+        <option name="modules">
+          <set>
+            <option value="$PROJECT_DIR$/paypal-server" />
+          </set>
+        </option>
+      </GradleProjectSettings>
+      <GradleProjectSettings>
         <option name="externalProjectPath" value="$PROJECT_DIR$/server-jwt" />
         <option name="modules">
           <set>
